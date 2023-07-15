@@ -2,6 +2,7 @@
 @import url("bootstrap.css");
 :root {
     --main : #3267E3;
+    --light : #ECF8FF;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -17,5 +18,8 @@ body {
     color: var(--main);
 }
 .hmax {
-    height: 900px;
+    height: 896px;
+}
+.bglight {
+    background-color: var(--light);
 }

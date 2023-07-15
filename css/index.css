@@ -20,6 +20,9 @@ body {
 .hmax {
     height: 896px;
 }
+.wmax {
+    width: 414px;
+}
 .bglight {
     background-color: var(--light);
 }

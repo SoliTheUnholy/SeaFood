@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;500;700&display=swap');
+@import url("bootstrap.css");
+:root {
+    --main : #3267E3;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.pop {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.bgmain {
+    background-color: var(--main);
+}
+.txtmain {
+    color: var(--main);
+}
+.hmax {
+    height: 900px;
+}

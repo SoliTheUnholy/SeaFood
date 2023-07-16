@@ -3,6 +3,7 @@
 :root {
     --main : #3267E3;
     --light : #ECF8FF;
+    --menu : #F0F3FF;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -25,4 +26,7 @@ body {
 }
 .bglight {
     background-color: var(--light);
+}
+.bgmenu {
+    background-color: var(--menu);
 }

@@ -8,6 +8,9 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+.smaller {
+    font-size: 0.625em;
+}
 .pop {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -29,4 +32,19 @@ body {
 }
 .bgmenu {
     background-color: var(--menu);
+}
+.icon {
+    background-color: #D1E2FD;
+}
+.search :hover{
+    cursor: pointer;
+}
+.search:focus-within {
+    width: 261px;
+}
+.search:focus-within {
+    background-color: white !important;
+}
+.search:focus-within div {
+        background-color: transparent !important;
 }

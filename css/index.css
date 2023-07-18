@@ -9,6 +9,9 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+.card {
+    border: none;
+}
 .smaller {
     font-size: 0.625em;
 }
@@ -30,6 +33,11 @@ body {
 }
 .wmax {
     width: 414px;
+}
+.mtmenu {
+    margin-top: 4px;
+    height: 856px;
+    padding-bottom: 76px;
 }
 .bglight {
     background-color: var(--light);

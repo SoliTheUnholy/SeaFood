@@ -4,6 +4,7 @@
     --main : #3267E3;
     --light : #ECF8FF;
     --menu : #F0F3FF;
+    --text : #006EEE;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -20,6 +21,9 @@ body {
 }
 .txtmain {
     color: var(--main);
+}
+.txtmenu {
+    color: var(--text);
 }
 .hmax {
     height: 896px;

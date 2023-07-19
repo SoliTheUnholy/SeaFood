@@ -28,6 +28,9 @@ body {
 .txtmenu {
     color: var(--text);
 }
+.txtbg {
+    background-color: var(--text);
+}
 .hmax {
     height: 896px;
 }
@@ -35,7 +38,7 @@ body {
     width: 414px;
 }
 .mtmenu {
-    margin-top: 4px;
+    margin-top: 40px;
     height: 856px;
     padding-bottom: 76px;
 }

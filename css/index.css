@@ -60,3 +60,13 @@ body {
 .search:focus-within div {
         background-color: transparent !important;
 }
+.like {
+    cursor: pointer;
+}
+.like:active {
+    fill: var(--main);
+    stroke-opacity: 0;
+}
+.height {
+    height: 100px;
+}

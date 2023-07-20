@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
     <title>
-        Cart
+        Debit
     </title>
 </head>
 <body>
-    <div class="bgmenu hmax w-100 d-flex flex-column align-items-center">
+    <div class="hmax w-100 d-flex flex-column align-items-center">
         <div class="d-flex justify-content-center align-items-end hmax position-absolute z-1">
             <nav class="position-fixed bg-white d-flex wmax justify-content-evenly py-3 align-items-end">
                 <a href="Home.html">
@@ -44,30 +44,94 @@
                 
             </nav>
         </div>
-        <div class="d-flex flex-column mtmenu wmax position-absolute z-0 overflow-scroll gap-3">
-            <div class="bg-white py-5 px-4">
-                <div class="mt-4 pt-4">
-                    <span class="display-1 fw-bold">
-                        Pesanan
-                    </span>
-                </div>
-            </div>
-            <a href="cartcheck.html" class="link-underline link-underline-opacity-0 text-reset bg-white py-5 px-4 d-flex justify-content-between">
-                <div class="d-flex flex-column justify-content-between">
-                    <div class="d-flex flex-column">
-                        <span class="fw-medium">
-                            Mushroom Pasta Aglio Olio
+        <div class="d-flex justify-content-between flex-column mtmenu wmax position-absolute z-0 overflow-scroll gap-3">
+            <div class="d-flex flex-column gap-3 mt-4">
+                <div class="bg-white py-5 px-4">
+                    <div class="mt-4">
+                        <span class="display-1 fw-bold">
+                            Payment
                         </span>
-                        <span class="txtmenu">
+                    </div>
+                </div>
+                <div class="mx-4 d-flex flex-column gap-2">
+                    <span class="fs-2 fw-bold">
+                        Your Order
+                    </span>
+                    <div class="d-flex justify-content-between">
+                        <span class="small">
+                            Order
+                        </span>
+                        <span class="small">
                             Rp 142.500
                         </span>
                     </div>
-                    <span class="opacity-50 align-self-end">
-                        1 minute ago
-                    </span>
+                    <div class="d-flex justify-content-between">
+                        <span class="small">
+                            Delivery
+                        </span>
+                        <span class="small">
+                            Rp 5000
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <span class="fw-medium">
+                            Summary
+                        </span>
+                        <span class="txtmenu">
+                            Rp 147.500
+                        </span>
+                    </div>
                 </div>
-                <img src="assets/Cart/Bitmap.png" alt="">
-            </a>
+                <hr class="mx-4">
+                <form class="mx-4 d-flex flex-column gap-2">
+                    <label class="fs-2 fw-bold" for="Paymen Method">
+                        Paymen Method
+                    </label>
+                    <a href="payment.html" class="text-reset link-underline link-underline-opacity-0">
+                        
+                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="1" y="1" width="17" height="17" rx="8.5" stroke="#9E9E9E" stroke-width="2"/>
+                        </svg>
+                        
+                        <span for="Cash">
+                            Cash
+                        </span>
+                    </a>
+                    
+                    <a href="debit.html" class="text-reset link-underline link-underline-opacity-0">
+                        
+                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="3" y="3" width="13" height="13" rx="6.5" fill="#114CD6"/>
+                            <rect x="1" y="1" width="17" height="17" rx="8.5" stroke="#114CD6" stroke-width="2"/>
+                        </svg>
+                        
+                        <span>
+                            Debit
+                        </span>
+                    </a>
+                    <a href="credit.html" class="text-reset link-underline link-underline-opacity-0">
+                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="1" y="1" width="17" height="17" rx="8.5" stroke="#9E9E9E" stroke-width="2"/>
+                        </svg>
+                        <span>
+                            Credit
+                        </span>
+                    </a>
+                </form>
+                <div class="mx-4">
+                    <span class="fw-bold">
+                        Have problem? click
+                    </span>
+                    <a class="link-underline link-underline-opacity-0 fw-bold txtmenu">
+                        here
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex flex-column gap-3 fw-bold mb-5 mx-4">
+                <a href="payment.html" class="fw-bold link-underline link-underline-opacity-0 btn btn-dark txtbg py-3 text-white fs-5">
+                    Pay Now
+                </a>
+            </div>
         </div>
         <div class="d-flex position-absolute z-2">
             <div class="align-self-start d-flex wmax justify-content-between px-4 py-2 bg-white align-items-center">

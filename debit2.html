@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
     <title>
-        Credit
+        Add Card
     </title>
 </head>
 <body>
@@ -44,93 +44,56 @@
                 
             </nav>
         </div>
-        <div class="d-flex justify-content-between flex-column mtmenu wmax position-absolute z-0 overflow-scroll gap-3">
-            <div class="d-flex flex-column gap-3 mt-4">
-                <div class="bg-white py-5 px-4">
-                    <div class="mt-4">
-                        <span class="display-1 fw-bold">
-                            Payment
-                        </span>
-                    </div>
-                </div>
-                <div class="mx-4 d-flex flex-column gap-2">
+        <img class="position-absolute z-0" src="assets/addcard/background.png" alt="">
+        <div class="d-flex justify-content-end flex-column mtmenu wmax position-absolute z-0 overflow-scroll gap-3">
+            <div class="d-flex bg-white flex-column gap-3 pt-4">
+                <div class="mx-4 d-flex flex-column gap-3">
+                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.36187 5.97047L12.3232 1.00915C12.7146 0.617717 13.3493 0.617717 13.7407 1.00915C14.1321 1.40059 14.1321 2.03524 13.7407 2.42667L8.77939 7.38799L13.7407 12.3493C14.1321 12.7407 14.1321 13.3754 13.7407 13.7668C13.3493 14.1583 12.7146 14.1583 12.3232 13.7668L7.36187 8.80551L2.40055 13.7668C2.00911 14.1583 1.37447 14.1583 0.983031 13.7668C0.591594 13.3754 0.591594 12.7407 0.983031 12.3493L5.94435 7.38799L0.983031 2.42667C0.591594 2.03524 0.591594 1.40059 0.983031 1.00915C1.37447 0.617717 2.00911 0.617717 2.40055 1.00915L7.36187 5.97047Z" fill="#424347"/>
+                    </svg>
                     <span class="fs-2 fw-bold">
-                        Your Order
+                        Add New Card
                     </span>
-                    <div class="d-flex justify-content-between">
-                        <span class="small">
-                            Order
+                    <div class="d-flex flex-column gap-2">
+                        <span class="small opacity-50">
+                            Name on card
                         </span>
-                        <span class="small">
-                            Rp 142.500
-                        </span>
-                    </div>
-                    <div class="d-flex justify-content-between">
-                        <span class="small">
-                            Delivery
-                        </span>
-                        <span class="small">
-                            Rp 5000
+                        <span>
+                            Muhammad Tommy
                         </span>
                     </div>
-                    <div class="d-flex justify-content-between">
-                        <span class="fw-medium">
-                            Summary
+                    <div class="d-flex flex-column gap-2">
+                        <span class="small opacity-50">
+                            Card number
                         </span>
-                        <span class="txtmenu">
-                            Rp 147.500
+                        <span>
+                            1234  4567  7890  1234
                         </span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-2">
+                        <div class="d-flex flex-column gap-2">
+                            <span class="small opacity-50">
+                                Expiry date
+                            </span>
+                            <span>
+                                02/24
+                            </span>
+                        </div>
+                        <div class="d-flex flex-column gap-2">
+                            <span class="small opacity-50">
+                                CVV
+                            </span>
+                            <span>
+                                •••
+                            </span>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column gap-2 fw-bold mb-5">
+                        <a href="done.html" class="fw-bold link-underline link-underline-opacity-0 btn btn-dark txtbg py-3 text-white fs-5">
+                            Add Card
+                        </a>
                     </div>
                 </div>
-                <hr class="mx-4">
-                <form class="mx-4 d-flex flex-column gap-2">
-                    <label class="fs-2 fw-bold" for="Paymen Method">
-                        Paymen Method
-                    </label>
-                    <a href="payment.html" class="text-reset link-underline link-underline-opacity-0">
-                        
-                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="1" y="1" width="17" height="17" rx="8.5" stroke="#9E9E9E" stroke-width="2"/>
-                        </svg>
-                        
-                        <span for="Cash">
-                            Cash
-                        </span>
-                    </a>
-                    
-                    <a href="debit.html" class="text-reset link-underline link-underline-opacity-0">
-                        
-                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="1" y="1" width="17" height="17" rx="8.5" stroke="#9E9E9E" stroke-width="2"/>
-                        </svg>
-                        
-                        <span>
-                            Debit
-                        </span>
-                    </a>
-                    <a href="credit.html" class="text-reset link-underline link-underline-opacity-0">
-                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="3" y="3" width="13" height="13" rx="6.5" fill="#114CD6"/>
-                            <rect x="1" y="1" width="17" height="17" rx="8.5" stroke="#114CD6" stroke-width="2"/>
-                        </svg>
-                        <span>
-                            Credit
-                        </span>
-                    </a>
-                </form>
-                <div class="mx-4">
-                    <span class="fw-bold">
-                        Have problem? click
-                    </span>
-                    <a class="link-underline link-underline-opacity-0 fw-bold txtmenu">
-                        here
-                    </a>
-                </div>
-            </div>
-            <div class="d-flex flex-column gap-3 fw-bold mb-5 mx-4">
-                <a href="credit1.html" class="fw-bold link-underline link-underline-opacity-0 btn btn-dark txtbg py-3 text-white fs-5">
-                    Pay Now
-                </a>
             </div>
         </div>
         <div class="d-flex position-absolute z-2">
